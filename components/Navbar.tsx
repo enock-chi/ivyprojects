@@ -4,9 +4,9 @@ import React, {useState} from 'react';
 import NavButton from './NavButton';
 import Link from 'next/link';
 
-type NavbarProps = {};
 
-const Navbar: React.FC<NavbarProps> = () => {
+
+const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const handleToggle = () => {
