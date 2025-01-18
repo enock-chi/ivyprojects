@@ -1,8 +1,8 @@
 import React from 'react';
 
-type PageProps = {};
 
-const Page: React.FC<PageProps> = () => {
+
+const Page: React.FC = () => {
     return (
         <div>
             Page
