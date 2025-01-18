@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     };
 
     return (
-        <div className='w-full min-h-[11vh] bg-[#f4f4f4] top-0 shadow-lg fixed rounded-b-2xl'>
+        <div className='w-full min-h-[11vh] bg-[#f4f4f4] top-0 shadow-lg fixed rounded-b-2xl z-50'>
             <div className='flex w-full items-center'>
                 <div className='w-1/2 h-[11vh] overflow-hidden flex items-center'>
                 <Image src='/ivyprojectsLogo.JPG' alt='Logo' width={70} height={70} />
