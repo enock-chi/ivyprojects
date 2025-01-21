@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Price from "@/section/Price";
+import Footer from "@/components/Footer";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +34,7 @@ export default function RootLayout({
         <div className="block md:hidden h-auto pb-[5vh]">
           <Navbar />
           {children}
-          <Price />
+          <Footer />
         </div>
         <div className="hidden md:block w-full h-[80vh]">
           <p className="px-[5vw] py-2 rounded-xl mx-auto mt-[48vh] text-center border w-[50vw] h-[5vh] border-black text-black">Please use mobile view.</p>

@@ -28,13 +28,13 @@ const Price: React.FC = () => {
       ];
       
     return (
-        <div className='w-full h-auto'>
+        <div className='w-full h-auto pb-[3vh]'>
             <div className='relative w-full min-h-[20vh] pl-[5vw] pb-[5vh]'>
                 <Image src={'/ivyprice.PNG'} alt='' width={350} height={100} />
             </div>
             <div className='w-full min-h-[80vh] overflow-y-auto flex flex-col items-center space-y-[5vh]'>
                 {bouquets.map((item, i) => (
-                    <PriceCard name={bouquets[i].name} price={bouquets[i].price} image={bouquets[i].image} />
+                    <PriceCard key={i} name={bouquets[i].name} price={bouquets[i].price} image={bouquets[i].image} />
                 ))}
             </div>
         </div>

@@ -1,10 +1,11 @@
 import Image from "next/image";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Link from "next/link";
+import Price from "@/section/Price";
 
 export default function Home() {
   return (
-    <div className="pt-[12vh] grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen  pb-5 gap-16 font-[family-name:var(--font-geist-sans)]">
+    <div className="pt-[12vh] grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen gap-16 font-[family-name:var(--font-geist-sans)]">
       <div className="w-full h-[50vh] pl-[14vw] pt-[24vh] flex">
         <Image src='/ivytext.PNG' alt='ivyprojects' width={300} height={100} className="z-1"/>
         <Image src='/ivyflower.PNG' alt="" width={100} height={100} className="absolute top-[12vh] right-[4vw]  z-10" />
@@ -26,6 +27,7 @@ export default function Home() {
           <Link href={'https://www.instagram.com/ivyprojects_/?hl=en'}><i className="bi bi-instagram text-white text-[2rem]"></i></Link>
           <Link href={'tel:'}><i className="bi bi-telephone text-white text-[2rem]"></i></Link>
       </div>
+      <Price />
     </div>
   );
 }
