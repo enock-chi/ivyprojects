@@ -23,7 +23,7 @@ const AboutUsPage: React.FC = () => {
         <div className="flex justify-center gap-12 mb-10">
           <div className="w-1/3">
             <img src="/team-photo-1.jpg" alt="Team Member 1" className="w-full h-[300px] object-cover rounded-lg shadow-md mb-4" />
-            <h3 className="text-xl font-semibold text-[#c6a48e] text-center">Jane Doe</h3>
+            <h3 className="text-xl font-semibold text-[#c6a48e] text-center">Samantha Chirume</h3>
             <p className="text-center text-[#4a4a4a]">Founder & Lead Florist</p>
           </div>
           
