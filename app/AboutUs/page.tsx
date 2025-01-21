@@ -39,7 +39,7 @@ const AboutUsPage: React.FC = () => {
         <div className="text-center">
           <h2 className="text-2xl font-semibold text-[#c6a48e] mb-6">Our Commitment to Quality</h2>
           <p className="text-lg text-[#4a4a4a] leading-relaxed mb-10">
-            At [Your Floral Business Name], quality is at the core of everything we do. From hand-selecting the freshest blooms to meticulously designing every arrangement, we strive for excellence. Our team of expert florists is dedicated to delivering designs that reflect your unique style and vision, whether for an elegant wedding or a simple, joyful bouquet.
+            At <span className='italic'>Ivy Projects</span>, quality is at the core of everything we do. From hand-selecting the freshest blooms to meticulously designing every arrangement, we strive for excellence. Our team of expert florists is dedicated to delivering designs that reflect your unique style and vision, whether for an elegant wedding or a simple, joyful bouquet.
           </p>
         </div>
 
