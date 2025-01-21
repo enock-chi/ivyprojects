@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
 
         {/* Copyright */}
         <p className="text-sm text-[#b0b0b0] pb-[3vh]">
-          &copy; {new Date().getFullYear()} [Your Floral Business Name]. All Rights Reserved.
+          &copy; {new Date().getFullYear()} ivyprojects. All Rights Reserved.
         </p>
       </div>
     </footer>
