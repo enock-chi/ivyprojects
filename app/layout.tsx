@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="block md:hidden h-auto pb-[5vh]">
+        <div className="block md:hidden h-auto">
           <Navbar />
           {children}
           <Footer />

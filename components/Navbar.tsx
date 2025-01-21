@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
                 </div>
             </div>
             {isOpen && 
-                <div className='w-full h-[20vh] px-[5vw] justify-center space-y-2 flex flex-col'>
+                <div className='w-full h-[25vh] px-[5vw] justify-center space-y-2 flex flex-col'>
                     <Link 
                         href={'/Gallery'} 
                         className="px-[2vw] rounded-md bg-[#c6a48e] text-[#f6ece1] transition-all duration-300 no-underline"
@@ -36,6 +36,12 @@ const Navbar: React.FC = () => {
                         className="px-[2vw] rounded-md bg-[#c6a48e] text-[#f6ece1] transition-all duration-300 no-underline"
                     >
                         About Us
+                    </Link>
+                    <Link 
+                        href={'/Offerings'} 
+                        className="px-[2vw] rounded-md bg-[#c6a48e] text-[#f6ece1] transition-all duration-300 no-underline"
+                    >
+                        Offerings
                     </Link>
                     <Link 
                         href={'/Contact'} 

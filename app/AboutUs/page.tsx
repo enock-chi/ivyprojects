@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const AboutUsPage: React.FC = () => {
@@ -21,8 +22,8 @@ const AboutUsPage: React.FC = () => {
         </div>
 
         <div className="flex justify-center gap-12 mb-10">
-          <div className="w-1/3">
-            <img src="/team-photo-1.jpg" alt="Team Member 1" className="w-full h-[300px] object-cover rounded-lg shadow-md mb-4" />
+          <div className="w-2/3">
+            <Image src="/ivyBanner.png" alt="Sam img" className="w-full h-[35vh] object-cover shadow-md mb-4 rounded-full" width={200} height={100} />
             <h3 className="text-xl font-semibold text-[#c6a48e] text-center">Samantha Chirume</h3>
             <p className="text-center text-[#4a4a4a]">Founder & Lead Florist</p>
           </div>

@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-sm text-[#b0b0b0]">
+        <p className="text-sm text-[#b0b0b0] pb-[3vh]">
           &copy; {new Date().getFullYear()} [Your Floral Business Name]. All Rights Reserved.
         </p>
       </div>
