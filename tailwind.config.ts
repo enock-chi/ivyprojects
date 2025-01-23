@@ -13,6 +13,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        merienda: ['var(--font-merienda)', 'cursive'],
+      },
     },
   },
   plugins: [],
