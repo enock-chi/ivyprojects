@@ -34,6 +34,7 @@ const Page: React.FC = () => {
       data-bs-ride="carousel"
       data-bs-interval="3000" // Auto-slide every 3 seconds
     >
+      <p className='absolute left-[40vw] font-bold text-2xl text-[#c6a48e] '>Gallery</p>
       <div className="carousel-inner">
         {images.map((image, index) => (
           <div

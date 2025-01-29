@@ -13,7 +13,7 @@ const GalleryCard: React.FC<GalleryCardProps> = ({ image }) => {
         alt="Gallery Image"
         width={300}
         height={100}
-        className="rounded"
+        className="rounded shadow-lg"
       />
     </div>
   );

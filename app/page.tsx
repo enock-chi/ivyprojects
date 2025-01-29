@@ -26,8 +26,12 @@ export default function Home() {
       <div className="relative top-[-5vh] bg-[#c6a48e] w-full h-[8vh] space-x-[10vw] flex justify-center items-center">
           <Link href={'https://www.instagram.com/ivyprojects_/?hl=en'}><i className="bi bi-instagram text-white text-[2rem]"></i></Link>
           <Link href={'tel:'}><i className="bi bi-telephone text-white text-[2rem]"></i></Link>
+          <Link href={'https://www.tiktok.com/@ivyprojects_?_t=ZM-8tFYZugk6b7&_r=1'}><i className="bi bi-tiktok text-white text-[2rem]"></i></Link>
       </div>
-      <Price />
+      <div className="pt-0 mt-0">
+        <Price />
+      </div>
     </div>
   );
 }
+

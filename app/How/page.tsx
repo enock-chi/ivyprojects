@@ -34,10 +34,10 @@ const page: React.FC = () => {
           <div className="flex items-center gap-6">
             <div className="text-5xl font-bold text-[#c6a48e]">3</div>
             <div className='w-full h-auto'>
-              <p className="text-lg text-[#4a4a4a] leading-relaxed h-auto]">
+              <p className="text-lg text-[#4a4a4a] leading-relaxed h-auto  pb-[4vh]">
                 Deliveries are between 10:00 and 17:00 from Monday to Saturday (unless it is a special request).
                 <br />
-                <span className="italic text-[#c6a48e] ]">
+                <span className="italic text-[#c6a48e] ">
                   *Outside the 20km radius, an extra fee will be charged depending on the distance.
                 </span>
               </p>
