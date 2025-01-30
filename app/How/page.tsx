@@ -38,7 +38,7 @@ const page: React.FC = () => {
                 Deliveries are between 10:00 and 17:00 from Monday to Saturday (unless it is a special request).
                 <br />
                 <span className="italic text-[#c6a48e] ">
-                  *Outside the 20km radius, an extra fee will be charged depending on the distance.
+                  *Outside the 10km radius, an extra fee will be charged depending on the distance.
                 </span>
               </p>
             </div>
