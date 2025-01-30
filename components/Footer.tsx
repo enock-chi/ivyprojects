@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
 
         {/* Navigation Links */}
         <div className="flex justify-center gap-12 mb-6">
-          <a href="/about" className="text-white hover:text-[#c6a48e] transition-colors">About Us</a>
-          <a href="/services" className="text-white hover:text-[#c6a48e] transition-colors">Services</a>
-          <a href="/contact" className="text-white hover:text-[#c6a48e] transition-colors">Contact</a>
+          <a href="/AboutUs" className="text-white hover:text-[#c6a48e] transition-colors">About Us</a>
+          <a href="/Offerings" className="text-white hover:text-[#c6a48e] transition-colors">Services</a>
+          <a href="/Contact" className="text-white hover:text-[#c6a48e] transition-colors">Contact</a>
         </div>
 
         {/* Social Media Links */}
