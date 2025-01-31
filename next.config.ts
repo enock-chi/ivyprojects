@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['us-west-2.graphassets.com'], // Add the allowed domains here
+  },
+  // other config options...
 };
 
 export default nextConfig;
